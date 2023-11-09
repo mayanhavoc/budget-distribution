@@ -23,7 +23,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
-	padding: 0 2em;
+	padding: 0;
+}
+
+.calculate-btn {
+	width: calc(50% - 10px);
+	margin: 10px 0;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
 }
 
 input[type='text'],
